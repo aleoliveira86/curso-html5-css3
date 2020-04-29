@@ -1,0 +1,51 @@
+body{
+    background: gray;
+    color: red;
+    margin-left: 30px; 
+    margin-right: 100px; 
+    }
+
+    header{
+        margin-top: 70px;
+    }
+
+    h1{
+        color: yellow;
+        font-family: fantasy;
+    }
+
+    h2{
+        color: blue;
+        font-family: fantasy;
+    }
+
+    p{
+        color: blue;
+        font-size: 18px;
+    }
+
+    footer{
+        margin-bottom: 30px;
+    }
+
+    .img.padrao{
+        /* posso modificar tamanho(width), margens (margin) 
+        e todos as imagens que estiverem na mesma classe são modificados */
+    }
+
+/* 
+    desta forma todos as imagens estarão separadas e criou um problema com o contato.
+    O realizado acima resolve este problema criando classes no HTML.
+    O simbolo . significa que tudo que vier depois é classe.
+    img{
+        margin-bottom: 20px;
+    } */
+    /* background = fundo da tela;
+    color= cor da letra
+    margin= margem das distancias
+    left - esquerda
+    right - direita    todos referidos ao elemento
+    top - acima
+    bottom - abaixo
+    font family- referente a letra(escrit)
+    size - tamanho */
